@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+    color: #2d2d2d;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header and Navigation */
+header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    margin-bottom: 40px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+}
+
+.logo h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #2d2d2d;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #2d2d2d;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.nav-link.active {
+    color: #e74c3c;
+}
+
+.theme-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.theme-toggle img {
+    width: 24px;
+    height: 24px;
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    gap: 60px;
+    padding: 40px 0;
+}
+
+.hero-left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+}
+
+.hero-right {
+    flex: 1;
+    max-width: 550px;
+}
+
+.hero-right h1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 24px;
+    color: #2d2d2d;
+}
+
+.hero-right p {
+    font-size: 16px;
+    color: #5a5a5a;
+    margin-bottom: 40px;
+    line-height: 1.8;
+}
+
+.btn-get-started {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 18px 50px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+/* Main Sections */
+.first-section {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.first-section h2 {
+    width: 205px;
+    height: 72px;
+    font-weight: 600;
+    font-size: 24px;
+    margin: 0 auto 60px;
+    color: #2d2d2d;
+}
+
+.gifts-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 150px;
+}
+
+.gift-card {
+    text-align: center;
+    max-width: 160px;
+}
+
+.gift-card img {
+    width: 140px;
+    height: 140px;
+    margin-bottom: 20px;
+}
+
+.gift-card h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #2d2d2d;
+}
+
+.gift-card p {
+    font-size: 15px;
+    color: #5a5a5a;
+    line-height: 1.6;
+}
