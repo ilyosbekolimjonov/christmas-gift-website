@@ -4,12 +4,15 @@
     box-sizing: border-box;
 }
 
-body {
+html, body {
     width: 100%;
+    overflow-x: hidden;
+}
+
+body {
     font-family: 'Poppins', sans-serif;
     background-color: #f5f5f5;
     color: #2d2d2d;
-    overflow-x: hidden;
 }
 
 .container {
