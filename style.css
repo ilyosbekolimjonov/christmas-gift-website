@@ -569,4 +569,32 @@ nav ul {
     header {
         min-height: auto;
     }
+
+    /* Giving Section */
+    .first-section {
+        padding: 50px 0;
+    }
+
+    .gifts-section {
+        flex-wrap: wrap;
+        gap: 40px;
+        justify-content: center;
+    }
+
+    .gift-card {
+        max-width: 140px;
+    }
+
+    .gift-card img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .gift-card h3 {
+        font-size: 16px;
+    }
+
+    .gift-card p {
+        font-size: 13px;
+    }
 }
