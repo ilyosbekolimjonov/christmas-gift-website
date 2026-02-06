@@ -418,3 +418,91 @@ nav ul {
     width: 450px;
     height: auto;
 }
+
+/* Footer */
+.site-footer {
+    position: relative;
+    padding: 80px 0 30px;
+    margin-bottom: 60px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding-bottom: 40px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: #2d2d2d;
+}
+
+.footer-col ul {
+    list-style: none;
+}
+
+.footer-col ul li {
+    font-size: 14px;
+    color: #5a5a5a;
+    margin-bottom: 10px;
+}
+
+.footer-brand {
+    max-width: 220px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.footer-logo img {
+    width: 28px;
+    height: 28px;
+}
+
+.footer-logo h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #2d2d2d;
+}
+
+.footer-brand p {
+    font-size: 14px;
+    color: #5a5a5a;
+}
+
+.store-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.store-buttons img {
+    width: 120px;
+    height: auto;
+}
+
+.footer-copy {
+    text-align: center;
+    font-size: 13px;
+    color: #9a9a9a;
+    margin-top: 40px;
+}
+
+.footer-ornament {
+    position: absolute;
+    bottom: 30px;
+    width: 80px;
+    height: auto;
+}
+
+.footer-ornament.right {
+    top: 200px;
+    right: -100px;
+}
