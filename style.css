@@ -548,9 +548,10 @@ nav ul {
         max-width: 320px;
     }
 
-    .hero-right{
+    .hero-right {
         text-align: center;
     }
+
     .hero-right h1 {
         font-size: 28px;
     }
@@ -596,5 +597,166 @@ nav ul {
 
     .gift-card p {
         font-size: 13px;
+    }
+
+    /* Celebrate Section */
+    .celebrate-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .celebrate-left {
+        width: 100%;
+    }
+
+    .celebrate-left h2 {
+        width: 70%;
+        margin: 20px auto;
+        font-size: 28px;
+    }
+
+    .celebrate-left p {
+        width: 330px;
+        margin: 0 auto;
+        font-size: 14px;
+        padding-bottom: 20px;
+        text-align: center;
+        font-size: 16px;
+
+    }
+
+    .celebrate-right img {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    /* Share A Gift Section */
+    .share-gift-section {
+        padding: 50px 0;
+    }
+
+    .gift-cards {
+        padding: 0;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .gift-card-item {
+        width: 40%;
+        padding: 15px;
+    }
+
+    .gift-img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .heart-icon {
+        width: 16px;
+        height: 16px;
+    }
+
+    .gift-info h3 {
+        font-size: 16px;
+    }
+
+    .gift-info p {
+        font-size: 12px;
+    }
+
+    /* New Gifts Section */
+    .new-gifts-section {
+        padding: 50px 0;
+    }
+
+    .new-gifts-cards {
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        gap: 25px;
+        padding-bottom: 10px;
+        scrollbar-width: none;
+    }
+
+    .new-gift-card {
+        min-width: 220px;
+    }
+
+    .new-gift-img {
+        width: 130px;
+        height: 130px;
+    }
+
+    /* Wishes Section */
+    .wishes-section {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 30px;
+        margin: 30px 10px 50px;
+        gap: 20px;
+        border-radius: 20px;
+    }
+
+    .wishes-left {
+        max-width: 100%;
+    }
+
+    .wishes-left h2 {
+        width: 250px;
+        margin: 20px auto;
+        font-size: 28px;
+    }
+
+    .wishes-input {
+        font-size: 14px;
+        padding: 18px 20px;
+    }
+
+    .btn-send-message {
+        width: 100%;
+        font-size: 16px;
+        padding: 18px 30px;
+    }
+
+    .wishes-right img {
+        width: 100%;
+        max-width: 280px;
+    }
+
+    /* Footer */
+    .site-footer {
+        margin-bottom: 40px;
+    }
+
+
+    .footer-content {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footer-ornament {
+        width: 60px;
+    }
+
+    .footer-ornament.left {
+        width: 100px;
+        height: 110px;
+        top: 150px;
+        right: 50px;
+    }
+
+    .footer-ornament.right {
+        width: 110px;
+        height: 120px;
+        top: 425px;
+        right: -50px;
+    }
+
+    .footer-brand p {
+        width: 140px;
+    }
+
+    .footer-copy {
+        margin-top: 80px;
     }
 }
